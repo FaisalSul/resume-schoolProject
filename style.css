@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color: #5CACEE;
+    border-bottom: 1.5px solid #5CACEE;
+}
+section{
+    margin-top: 35rem;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text{
+    color: black;
+    padding: 20px;
+    margin-left: 5rem;
+    
+}
+
+.img-div{
+    margin-right: 10rem;
+}
+h1{
+font-weight: 600;
+}
+
+.luffy-img{
+    border-radius: 50%;
+    max-width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    transition:  color 0.3s;
+}
+
+footer a:hover{
+    color: #5CACEE;
+    border-bottom: 1.5px solid #5CACEE;
+}
+
+/* Buttons */
+ a{
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: black;
+    border: 2px solid #3498db;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+.b-btn{
+    border: none;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+/* div */
+.div{
+    margin: 10rem;
+}
